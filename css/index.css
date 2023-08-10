@@ -12,6 +12,7 @@
 .announcement p {
   color: #f9f9f9;
   font-size: 18px;
+  float: left;
 }
 .announcement a {
   text-decoration: none;
@@ -20,6 +21,7 @@
   background-color: #eb5757;
   padding: 5px 20px 5px 20px;
   border-radius: 20px;
+  float: right;
 }
 .announcement .row {
   padding-top: 30px;
