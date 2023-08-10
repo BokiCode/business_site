@@ -3,7 +3,6 @@
     p {
         color: $white;
         font-size: 18px;
-        float: left;
     }
     a {
         text-decoration: none;
@@ -12,10 +11,9 @@
         background-color: $red;
         padding: 5px 20px 5px 20px;
         border-radius: 20px;
-        float: right;
     }
     .row {
-        padding-top: 20px;
-        padding-bottom: 20px;
+        padding-top: 30px;
+        padding-bottom: 15px;
     }
 }
