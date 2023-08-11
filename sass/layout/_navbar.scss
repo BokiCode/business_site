@@ -1,0 +1,21 @@
+.navbar {
+    background-color: $red;
+    padding: 10px 0 10px 0;
+    ul {
+        padding-top: 15px;
+        float: right;
+    }
+        li {
+            display: inline-block;
+            padding-right: 50px;
+        }
+        a {
+            text-decoration: none;
+            color: $white;
+        }
+        .shopping-cart-btn {
+            background-color: $dark;
+            padding: 6px 15px 6px 15px;
+            border-radius: 5px;
+        }
+    }

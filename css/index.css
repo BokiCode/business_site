@@ -9,10 +9,11 @@
 .announcement {
   background-color: #222;
 }
-.announcement p {
+.announcement li {
   color: #f9f9f9;
   font-size: 18px;
-  float: left;
+  list-style: none;
+  display: inline-block;
 }
 .announcement a {
   text-decoration: none;
@@ -21,9 +22,30 @@
   background-color: #eb5757;
   padding: 5px 20px 5px 20px;
   border-radius: 20px;
-  float: right;
 }
 .announcement .row {
   padding-top: 30px;
   padding-bottom: 15px;
+}
+
+.navbar {
+  background-color: #eb5757;
+  padding: 10px 0 10px 0;
+}
+.navbar ul {
+  padding-top: 15px;
+  float: right;
+}
+.navbar li {
+  display: inline-block;
+  padding-right: 50px;
+}
+.navbar a {
+  text-decoration: none;
+  color: #f9f9f9;
+}
+.navbar .shopping-cart-btn {
+  background-color: #222;
+  padding: 6px 15px 6px 15px;
+  border-radius: 5px;
 }

@@ -1,9 +1,10 @@
 .announcement {
     background-color: $dark;
-    p {
+    li {
         color: $white;
         font-size: 18px;
-        float: left;
+        list-style: none;
+        display: inline-block;
     }
     a {
         text-decoration: none;
@@ -12,10 +13,10 @@
         background-color: $red;
         padding: 5px 20px 5px 20px;
         border-radius: 20px;
-        float: right;
     }
     .row {
         padding-top: 30px;
         padding-bottom: 15px;
     }
 }
+
