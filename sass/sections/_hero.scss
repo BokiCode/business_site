@@ -1,0 +1,33 @@
+.hero {
+    background-size: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url('../img/background-image.jpg');
+    background-position: center;
+    background-repeat: no-repeat;   
+    font-size: 18px;
+    height: 550px;
+    color: $white;
+
+    p {
+        font-size: 18px;
+        padding-bottom: 10px;
+    }
+    h1 {
+        font-size: 62px;
+        font-weight: bold;
+        padding-top: 150px;
+    }
+    a {
+        text-decoration: none;
+        color: $white;
+        font-weight: bold;
+        border: solid 1px white;
+        padding: 7px 25px 7px 25px;
+        border-radius: 5px;
+
+        &:hover {
+            color: $dark;
+            background-color: $white;
+            transition: 0.3s ease;
+        }
+    }
+}

@@ -49,3 +49,35 @@
   padding: 6px 15px 6px 15px;
   border-radius: 5px;
 }
+
+.hero {
+  background-size: 100%;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url("../img/background-image.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  font-size: 18px;
+  height: 550px;
+  color: #f9f9f9;
+}
+.hero p {
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+.hero h1 {
+  font-size: 62px;
+  font-weight: bold;
+  padding-top: 150px;
+}
+.hero a {
+  text-decoration: none;
+  color: #f9f9f9;
+  font-weight: bold;
+  border: solid 1px white;
+  padding: 7px 25px 7px 25px;
+  border-radius: 5px;
+}
+.hero a:hover {
+  color: #222;
+  background-color: #f9f9f9;
+  transition: 0.3s ease;
+}
