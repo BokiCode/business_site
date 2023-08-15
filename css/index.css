@@ -19,7 +19,7 @@
   text-decoration: none;
   color: #f9f9f9;
   border: solid transparent;
-  background-color: #eb5757;
+  background-color: #0077b6;
   padding: 5px 20px 5px 20px;
   border-radius: 20px;
 }
@@ -29,7 +29,7 @@
 }
 
 .navbar {
-  background-color: #eb5757;
+  background-color: #0077b6;
   padding: 10px 0 10px 0;
 }
 .navbar ul {
