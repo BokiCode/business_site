@@ -4,14 +4,23 @@
     ul {
         padding-top: 15px;
         float: right;
-    }
+    
         li {
             display: inline-block;
-            padding-right: 50px;
+            padding-right: 40px;
         }
         a {
             text-decoration: none;
             color: $white;
+            border: 1px solid transparent;
+            padding: 5px 10px 5px 10px;
+            transition: 0.3s ease;
+         &:hover {
+             background-color: $dark;
+             border: 1px solid $dark;
+             border-radius: 5px;
+             transition: 0.3s ease;
+    }
         }
         .shopping-cart-btn {
             background-color: $dark;
@@ -19,3 +28,4 @@
             border-radius: 5px;
         }
     }
+}
