@@ -61,7 +61,7 @@
   background-position: center;
   background-repeat: no-repeat;
   font-size: 18px;
-  height: 550px;
+  height: 700px;
   color: #f9f9f9;
 }
 .hero p {
@@ -71,7 +71,7 @@
 .hero h1 {
   font-size: 62px;
   font-weight: bold;
-  padding-top: 150px;
+  padding-top: 300px;
 }
 .hero a {
   text-decoration: none;
