@@ -28,6 +28,11 @@
   padding-bottom: 10px;
 }
 
+.announcement-and-navbar-wrapper {
+  position: fixed;
+  width: 100%;
+}
+
 .navbar {
   background-color: #0077b6;
   padding: 10px 0 10px 0;
