@@ -24,3 +24,20 @@
     width: 100%;
 }
 
+@media(max-width: 480px) {
+    .announcement {
+    li {
+        font-size: 15px;
+    }
+}
+}
+@media(max-width: 336px) {
+    .announcement {
+       li {
+        &:last-child {
+            padding-top: 20px;
+        }
+       }
+    }
+}
+

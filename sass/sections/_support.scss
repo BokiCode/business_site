@@ -1,5 +1,6 @@
 .support {
     padding-top: 50px;
+    padding-bottom: 50px;
     span {
         text-transform: uppercase;
     }
@@ -10,14 +11,20 @@
         color: $white;
         padding-top: 165px;
         padding-bottom: 165px;
+        padding-right: 40px;
+        padding-left: 40px;
+        text-transform: uppercase;
     }
     .product-wrapper {
         background-color: $dark;
         text-align: center;
         border-radius: 5px;
+        margin-right: 30px;
     }
     .product-heading-numbers {
         color: $white;
         float: left;
+        padding-top: 40px;
+        padding-left: 40px;
     }
 }

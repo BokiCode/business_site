@@ -34,6 +34,16 @@
   width: 100%;
 }
 
+@media (max-width: 480px) {
+  .announcement li {
+    font-size: 15px;
+  }
+}
+@media (max-width: 336px) {
+  .announcement li:last-child {
+    padding-top: 20px;
+  }
+}
 .navbar {
   background-color: #0077b6;
   padding: 10px 0 10px 0;
@@ -99,6 +109,7 @@
 
 .support {
   padding-top: 50px;
+  padding-bottom: 50px;
 }
 .support span {
   text-transform: uppercase;
@@ -110,13 +121,19 @@
   color: #f9f9f9;
   padding-top: 165px;
   padding-bottom: 165px;
+  padding-right: 40px;
+  padding-left: 40px;
+  text-transform: uppercase;
 }
 .support .product-wrapper {
   background-color: #222;
   text-align: center;
   border-radius: 5px;
+  margin-right: 30px;
 }
 .support .product-heading-numbers {
   color: #f9f9f9;
   float: left;
+  padding-top: 40px;
+  padding-left: 40px;
 }
