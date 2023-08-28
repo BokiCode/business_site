@@ -5,6 +5,13 @@
         font-size: 18px;
         list-style: none;
         display: inline-block;
+
+        @media(max-width: 480px) {
+            font-size: 15px;
+            &:last-child {
+                padding-top: 20px;
+            }
+        }
     }
     a {
         text-decoration: none;
@@ -23,21 +30,3 @@
     position: fixed;
     width: 100%;
 }
-
-@media(max-width: 480px) {
-    .announcement {
-    li {
-        font-size: 15px;
-    }
-}
-}
-@media(max-width: 336px) {
-    .announcement {
-       li {
-        &:last-child {
-            padding-top: 20px;
-        }
-       }
-    }
-}
-

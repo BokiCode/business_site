@@ -29,3 +29,13 @@
         }
     }
 }
+
+.hamburger-menu-btn {
+    background-color: transparent;
+    color: $white;
+    border: 0;
+    display: none;
+    i {
+        font-size: 38px;
+    }
+}
