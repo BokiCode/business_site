@@ -54,6 +54,14 @@
   display: inline-block;
   padding-right: 40px;
 }
+@media (max-width: 991px) {
+  .navbar ul li {
+    display: none;
+  }
+  .navbar ul li:nth-child(6) {
+    display: block;
+  }
+}
 .navbar ul a {
   text-decoration: none;
   color: #f9f9f9;
@@ -81,6 +89,11 @@
 }
 .hamburger-menu-btn i {
   font-size: 38px;
+}
+@media (max-width: 991px) {
+  .hamburger-menu-btn {
+    display: block;
+  }
 }
 
 .hero {

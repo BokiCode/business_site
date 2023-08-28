@@ -3,11 +3,19 @@
     padding: 10px 0 10px 0;
     ul {
         padding-top: 15px;
-        float: right;
-    
+        float: right;    
         li {
             display: inline-block;
             padding-right: 40px;
+
+            @media (max-width: $lg) {
+                display: none;
+
+                &:nth-child(6) {
+                    display: block;
+                }
+            }
+
         }
         a {
             text-decoration: none;
@@ -37,5 +45,8 @@
     display: none;
     i {
         font-size: 38px;
+    }
+    @media (max-width: $lg) {
+        display: block;
     }
 }
